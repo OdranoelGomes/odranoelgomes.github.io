@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(176deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center;  Justicicar o conteudo ao centro só´funciona com o display flex.*/
+    list-style: none; /* Remover bolinha da lista*/
+    margin: 20px 0; /* 10px para top e bottom e 0 para left e height */
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none; 
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    background: white; /*Cor do fundo*/
+    padding: 10px; /*Espaçamento*/
+    display: block; /*Transformando o em bloco*/
+    padding: 15px 20px; /*Margem de dentro cima, baixo e laterais*/
+    border-radius: 4px; /*Arredondamento das bordas */
+    text-decoration: none; /*Removemdo o link do texto*/
+    color: rgb(54,77,204); /*Cor do texto*/
+    font-weight: bolder; /*deixando o texto mais groço igual Negrito*/
+
+}
+
+.links-list li a span {
+    color: grey; /*Coro do texto*/
+    display: block; /*Transformando em bloco*/
+    margin-top: 10px;
+}
